@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Главная | Туристский информационный центр Бурятии</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="canonical" href="http://newstour.bwsite.ru/">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- https://www.figma.com/file/M4KMDnqkYpmfVO1y1PkHtx/TIC-(Copy)?node-id=99%3A2 -->
+
+</head>
+
+<body cz-shortcut-listen="true">
+    <div class="main">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="images/logo-new.png" alt="логотип">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto header-nav-center my-auto">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Полезная информация</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Клятва туриста</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Профессионалам</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto my-auto ml-auto text-right">
+                        <div class="search-block">
+                            <a href="#">
+                                <img src="images/icon/search-bl.png" alt="">
+                            </a>
+                        </div>
+                        <div class="dropdown language_block">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ru</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">en</a>
+
+                                <a class="dropdown-item" href="#">gh</a>
+                            </div>
+                        </div>
+                        <!--<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"-->
+                        <!--    data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"-->
+                        <!--    aria-label="Toggle navigation">-->
+                        <!--    <img src="images/icon/burg.png" alt="">-->
+                        <!--</button>-->
+                    </div>
+                </div>
+            </div>
+            <div class="collapse fade" id="navbarHeader">
+                <div class="container">
+                    <div class="row logo-nav-block">
+                        <div class="col-4">
+                            <div class="logo-nav">
+                                <a href="/">
+                                    <img src="images/logo-nav.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-8 text-right">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/icon/close-nav.png" alt="">
+              </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <h4>Полезная информация</h4>
+                            <ul class="list-unstyled">
+                                <li class="first"><a href="poleznaya-informacziya/kak-doexat">Как доехать</a></li>
+                                <li><a href="poleznaya-informacziya/poluchit-pomoshh">Получить помощь</a></li>
+                                <li><a href="poleznaya-informacziya/straxovanie">Страхование</a></li>
+                                <li class="last"><a href="poleznaya-informacziya/kalendar/">Календарь</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4>Клятва туриста</h4>
+                            <ul class="list-unstyled">
+                                <li class="first"><a href="klyatva-turista/dat-klyatvu">Дать клятву</a></li>
+                                <li><a href="klyatva-turista/bajkalskaya-yasa">Байкальская яса</a></li>
+                                <li class="last"><a href="klyatva-turista/pamyatka-turista">Памятка туриста</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4>Профессионалам</h4>
+                            <ul class="list-unstyled">
+                                <li class="first"><a href="professionalam/marketing-kit">Маркетинг-кит</a></li>
+                                <li><a href="professionalam/dlya-turoperatorov">Для туроператоров</a></li>
+                                <li class="last"><a href="professionalam/dlya-gidov">Для гидов</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4>Контакты</h4>
+                            <ul class="list-unstyled">
+                                <li class="first"><a href="kontaktyi/pozvonit">Позвонить</a></li>
+                                <li><a href="kontaktyi/napisat">Написать</a></li>
+                                <li class="last"><a href="kontaktyi/karta-sajta">Карта сайта</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="slider-nav">
+            <div class="slider-nav-item" style="background-image: url('images/icon/slider/slider-nav/slide1.png');">
+                <div class="info-main text-center">
+                    <img src="images/icon/logo-big.png" alt="">
+                </div>
+                <div class="info-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="poleznaya-informacziya/kalendar/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/calendar.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Календарь событий</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="chto-posetit/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/posetit.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Что посетить?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gostiniczyi/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/ostanov.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где остановиться?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gde-poest/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/poest.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где поесть?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav-item" style="background-image: url('images/icon/slider/slider-nav/slide2.png');">
+                <div class="container">
+                    <div class="info-main row">
+                        <div class="col-lg-5">
+                            <ul class="icons-list">
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/car.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/heart-rate.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/calend.png" alt=""></li>
+                            </ul>
+                            <div class="price-block">
+                                <span class="icon">₽</span>от 20 000 руб
+                            </div>
+                            <h3 class="title">
+                                Чивыркуйский залив
+                            </h3>
+                            <div class="desc">
+                                Второй по величине залив озера Байкал. <br> Находится в природоохранной зоне <br> Забайкальского национального парка
+                            </div>
+                            <a href="#" class="link">
+                Подробнее <img src="images/icon/arrow-yellow.png" alt="">
+              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="poleznaya-informacziya/kalendar/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/calendar.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Календарь событий</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="chto-posetit/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/posetit.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Что посетить?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gostiniczyi/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/ostanov.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где остановиться?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gde-poest/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/poest.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где поесть?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav-item" style="background-image: url('images/icon/slider/slider-nav/slide3.png');">
+                <div class="container">
+                    <div class="info-main row">
+                        <div class="col-lg-5">
+                            <ul class="icons-list">
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/car.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/temple.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/calend.png" alt=""></li>
+                            </ul>
+                            <div class="price-block">
+                                <span class="icon">₽</span>от 20 000 руб
+                            </div>
+                            <h3 class="title">
+                                Иволгинский дацан
+                            </h3>
+                            <div class="desc">
+                                Главный духовный центр Бурятии — да и всей буддийской России. Храмовый комплекс, состоящий из десяти дворцов-дуганов, в одном из которых находится нетленное тело Даши-Доржо Итигэлова.
+                            </div>
+                            <a href="#" class="link">
+                Перейти на сайт события <img src="images/icon/arrow-yellow.png" alt="">
+              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="poleznaya-informacziya/kalendar/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/calendar.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Календарь событий</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="chto-posetit/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/posetit.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Что посетить?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gostiniczyi/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/ostanov.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где остановиться?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gde-poest/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/poest.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где поесть?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav-item" style="background-image: url('images/icon/slider/slider-nav/slide4.png');">
+                <div class="container">
+                    <div class="info-main row">
+                        <div class="col-lg-7">
+                            <ul class="icons-list">
+                            </ul>
+                            <div class="price-block">
+                            </div>
+                            <h3 class="title">
+                                Чемпионат мира по женскому футболу
+                            </h3>
+                            <div class="desc">
+                                Чемпионат мира по боксу среди женщин в Улан-Удэ пройдёт 3–13 октября 2019 года, эти даты были утверждены Международной ассоциацией бокса (AIBA)
+                            </div>
+                            <a href="#" class="link">
+                Перейти на сайт события <img src="images/icon/arrow-yellow.png" alt="">
+              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="poleznaya-informacziya/kalendar/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/calendar.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Календарь событий</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="chto-posetit/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/posetit.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Что посетить?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gostiniczyi/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/ostanov.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где остановиться?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gde-poest/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/poest.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где поесть?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav-item" style="background-image: url('images/icon/slider/slider-nav/slide5.png');">
+                <div class="container">
+                    <div class="info-main row">
+                        <div class="col-lg-5">
+                            <ul class="icons-list">
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/car.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/temple.png" alt=""></li>
+                                <li class="icons-item"><img src="images/icon/slider/slider-nav/icons/calend.png" alt=""></li>
+                            </ul>
+                            <div class="price-block">
+                                <span class="icon">₽</span>от 1000 руб
+                            </div>
+                            <h3 class="title">
+                                В гостях у семейских
+                            </h3>
+                            <div class="desc">
+                                Семейские – очень яркая и древняя ветвь русского народа, частица допетровской Московской Руси. Кто они, почему оказались в Забайкалье и почему их так называют?
+                            </div>
+                            <a href="#" class="link">
+                Перейти на сайт события <img src="images/icon/arrow-yellow.png" alt="">
+              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="poleznaya-informacziya/kalendar/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/calendar.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Календарь событий</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="chto-posetit/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/posetit.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Что посетить?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gostiniczyi/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/ostanov.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где остановиться?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="gde-poest/">
+                                    <div class="info-menu-item">
+
+                                        <div class="image">
+                                            <img src="images/icon/info-menu/poest.png" alt="">
+                                        </div>
+                                        <div class="title"><span>Где поесть?</span></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="plan-tour">
+        <div class="container d-flex flex-column align-items-center">
+            <h2>Запланируйте свое путешествие</h2>
+            <div class="row plan-menu mx-auto ">
+                <div>
+                    <button class="plan-menu-btn btn dropdown-toggle" type="button" id="dropdownCat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">Категория</button>
+                    <div class="dropdown-menu cat-menu" aria-labelledby="dropdownCat">
+                        <a class="dropdown-item mt-3">Маршруты</a>
+                        <a class="dropdown-item">Транспорт</a>
+                        <a class="dropdown-item">Размещение</a>
+                        <a class="dropdown-item">Туристические центры</a>
+                        <a class="dropdown-item">Достопримечательности</a>
+                        <a class="dropdown-item">Поесть</a>
+                    </div>
+                </div>
+                <div>
+                    <button class="plan-menu-btn btn dropdown-toggle" type="button" id="dropdownType" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-293,0">Тип</button>
+                    <div class="dropdown-menu type-menu" aria-labelledby="dropdownType">
+                        <div class="row">
+                            <div class="col-md-4 type-block">
+                                <label class="checkbox checkbox-label">
+                  <input type="checkbox">
+                  <div class="checkbox__text">1-3 дня</div>
+                </label>
+                            </div>
+                            <div class="col-md-4 type-block">
+                                <label class="checkbox checkbox-label">
+                  <input type="checkbox">
+                  <div class="checkbox__text">3-8 дней</div>
+                </label>
+                            </div>
+                            <div class="col-md-4 type-block">
+                                <label class="checkbox checkbox-label">
+                  <input type="checkbox">
+                  <div class="checkbox__text">Более 8 дней</div>
+                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="plan-menu-btn btn dropdown-toggle" type="button" id="dropdownPlace" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">Местоположение</button>
+                    <div class="dropdown-menu cat-menu" aria-labelledby="dropdownPlace">
+                        <a class="dropdown-item mt-3" href="#">Улан-Удэ</a>
+                        <a class="dropdown-item" href="#">Северный Байкал</a>
+                        <a class="dropdown-item" href="#">Южный Байкал</a>
+                        <a class="dropdown-item" href="#">Аршан и Ока</a>
+                        <a class="dropdown-item" href="#">Кяхта</a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-group search-btn-group" role="group" aria-label="Search buttons">
+                <button class="btn map-btn" style="
+    width: 50%;
+"><img src="images/icon/maps-and-flags.png" alt=""> На карте</button>
+                <button class="btn search-btn" style="
+    width: 50%;
+">Поиск</button>
+            </div>
+        </div>
+    </section>
+    <section class="bur-tour">
+        <div class="container">
+            <div class="bur-tour-wrapper">
+                <h2>Открой туризм Бурятии</h2>
+                <ul class="nav nav-tabs nav-fill nav-justified" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
+                            <div class="icon cult"></div>
+                            Культурно-позновательный
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
+                            <div class="icon lech"></div>
+                            Лечебно-оздоровительный
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
+                            <div class="icon eko"></div>
+                            Экологический
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
+                            <div class="icon act"></div>
+                            Активный
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                        <div class="row bur-tour-list">
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/95/2019-05-07-2lvg7y_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Буддизм</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/kulturno-poznovatelnyij/buddizm">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/96/2019-05-07-1prqa0_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Горы</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/kulturno-poznovatelnyij/goryi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/97/2019-05-07-73j02e_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Старообрядцы</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/kulturno-poznovatelnyij/staroobryadczyi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/98/2019-05-07-r9eb1m_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Байкал</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/kulturno-poznovatelnyij/bajkal">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane" id="tabs-2" role="tabpanel">
+                        <div class="row bur-tour-list">
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/99/2019-05-07-m8he9u_285x285_a63.png" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Центр Восточной Медицины</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/lechebno-ozdorovitelnyij/czentr-vostochnoj-mediczinyi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/100/2019-05-07-jdgua3_285x285_a63.png" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Голодание на Байкале</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/lechebno-ozdorovitelnyij/golodanie-na-bajkale">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/101/2019-05-07-lnwyfc_285x285_a63.png" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Эмчи Ламы</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/lechebno-ozdorovitelnyij/emchi-lamyi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/102/2019-05-07-aze0ib_285x285_a63.png" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Лечебные источники</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/lechebno-ozdorovitelnyij/lechebnyie-istochniki">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tabs-3" role="tabpanel">
+                        <div class="row bur-tour-list">
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/103/2019-05-07-b1cgp3_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Волонтерство</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/ekologicheskij/volonterstvo">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/104/2019-05-07-pqr8do_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Эко лагерь</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/ekologicheskij/eko-lager">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/105/2019-05-07-sak2cd_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Заповедники</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/ekologicheskij/zapovedniki">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/106/2019-05-07-y80392_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Байкальская тропа</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/ekologicheskij/bajkalskaya-tropa">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tabs-4" role="tabpanel">
+                        <div class="row bur-tour-list">
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/107/2019-05-07-d31weo_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Сноуборд и лыжи</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/aktivnyij/snoubord-i-lyizhi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/108/2019-05-07-qdgi1c_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Сап серфинг</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/aktivnyij/sap-serfing">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/109/2019-05-07-k3n6iw_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Пешие прогулки</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/aktivnyij/peshie-progulki">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 bur-tour-list-item">
+                                <div class="tour-prev-block row">
+                                    <div class="col-6 prev-block-left">
+                                        <img src="/assets/cache_image/assets/manager/upload/110/2019-05-07-aqe7tn_285x285_5a2.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 prev-block-right d-flex flex-column">
+                                        <div class="title mb-auto">
+                                            <h4>Горы</h4>
+                                        </div>
+                                        <a href="turizm-v-buryatii/aktivnyij/goryi">
+                      Подробнее <img src="images/icon/arrow-blue.png" alt="">
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn mybtn">
+            Смотреть все
+          </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="destination">
+        <div class="container">
+            <h2>Популярные направления</h2>
+            <div class="destination-list">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="destination-list-item">
+                            <div class="cover"></div>
+                            <div class="destination-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="destination-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        город в России, столица Республики Бурятия, третий по величине город Дальнего Востока
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="destination-list-item">
+                            <div class="cover"></div>
+                            <div class="destination-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="destination-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        город в России, столица Республики Бурятия, третий по величине город Дальнего Востока
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="destination-list-item">
+                            <div class="cover"></div>
+                            <div class="destination-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="destination-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> г. Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        город в России, столица Республики Бурятия, третий по величине город Дальнего Востока
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn mybtn">
+          Смотреть все
+        </a>
+            </div>
+        </div>
+    </section>
+    <section class="what-to-bring">
+        <div class="container">
+            <h2>Что привезти из Бурятии</h2>
+            <div class="what-to-bring-list">
+                <div class="row">
+                    <div class="col-lg-6 wtb-block-left">
+                        <div class="what-to-bring-list-item">
+                            <a href="#">
+                                <div class="cover"></div>
+                                <div class="desc d-flex">
+                                    <div class="text mt-auto">
+                                        Главный байкальский сувенир – копченый омуль
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wtb-block-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="what-to-bring-list-item">
+                                    <a href="#">
+                                        <div class="cover"></div>
+                                        <div class="desc d-flex">
+                                            <div class="text mt-auto">
+                                                Главный байкальский сувенир – копченый омуль
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="what-to-bring-list-item">
+                                    <a href="#">
+                                        <div class="cover"></div>
+                                        <div class="desc d-flex">
+                                            <div class="text mt-auto">
+                                                Главный байкальский сувенир – копченый омуль
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn mybtn">
+          Смотреть все
+        </a>
+            </div>
+        </div>
+    </section>
+    <section class="events">
+        <div class="container">
+            <h2>Ближайшие события</h2>
+            <div class="events-list">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="events-list-item">
+                            <div class="cover"></div>
+                            <div class="events-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="events-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+
+                                    </div>
+                                    <div class="location">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> Набережная р. Селенги, Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        Из глубины веков ёхор несёт магическую силу притяжения. Один раз научившись танцу – не забудешь его ритмичные движения никогда.
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                            <div class="date">
+                                03/07
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="events-list-item">
+                            <div class="cover"></div>
+                            <div class="events-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="events-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+
+                                    </div>
+                                    <div class="location">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> Набережная р. Селенги, Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        Из глубины веков ёхор несёт магическую силу притяжения. Один раз научившись танцу – не забудешь его ритмичные движения никогда.
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                            <div class="date">
+                                03/07
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="events-list-item">
+                            <div class="cover"></div>
+                            <div class="events-nodesc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="events-desc d-flex">
+                                <div class="mt-auto">
+                                    <div class="title">
+                                        День Рыбака в Забайкальском национальном парке
+
+                                    </div>
+                                    <div class="location">
+                                        <img src="images/icon/maps-and-flags.png" alt=""> Набережная р. Селенги, Улан-Удэ
+                                    </div>
+                                    <div class="text">
+                                        Из глубины веков ёхор несёт магическую силу притяжения. Один раз научившись танцу – не забудешь его ритмичные движения никогда.
+                                    </div>
+                                    <a href="#">
+                    Подробнее <img src="images/arrow.png" alt="">
+                  </a>
+                                </div>
+                            </div>
+                            <div class="date">
+                                03/07
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn mybtn">
+          Смотреть все
+        </a>
+            </div>
+        </div>
+    </section>
+    <section class="news-section">
+        <div class="container">
+            <h2>Новости туризма</h2>
+            <div class="news-section-list">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/24-v-buryatii-nachalsya-sezon-aktivnosti-kleshhej">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/24/2019-04-15-t4hidx_400x275_229.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">15 апреля 2019, 10:26</div>
+                                <div class="text">
+                                    В Бурятии начался сезон активности клещей
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/21-ajrat-bagautdinov-dast-master-klass-v-ulan-ude">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/21/2019-04-15-ewuxr5_400x275_229.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">15 апреля 2019, 10:19</div>
+                                <div class="text">
+                                    Айрат Багаутдинов даст мастер-класс в Улан-Удэ
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/13-svetlana-pezhemskaya,-spasshaya-na-pozhare-12-chelovek,-stala-obladatelniczej-trexkomnatnoj-kvartiryi">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/13/2019-04-15-x3vlng_400x275_5f6.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">15 апреля 2019, 07:03</div>
+                                <div class="text">
+                                    Светлана Пежемская, спасшая на пожаре 12 человек, стала обладательницей трехкомнатной квартиры
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/19-18-aprelya-2019-goda-v-respublike-buryatiya-projdet-seminar-po-detskomu-turizmu">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/19/2019-04-15-uekym7_400x275_229.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">12 апреля 2019, 10:16</div>
+                                <div class="text">
+                                    18 апреля 2019 года в Республике Бурятия пройдет семинар по детскому туризму
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/18-v-ulan-ude-sostoitsya-pervenstvo-buryatii-po-sportivnomu-orientirovaniyu-«bagulnik»">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/18/2019-04-15-fbmdnl_400x275_229.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">12 апреля 2019, 10:11</div>
+                                <div class="text">
+                                    В Улан-Удэ состоится Первенство Бурятии по спортивному ориентированию «Багульник»
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-section-list-item">
+                            <a href="novosti/turizm/20-priglashaem-v-infotur-v-selenginskij-rajon">
+                                <div class="image">
+                                    <img src="/assets/cache_image/assets/manager/upload/20/2019-04-15-fo5lq8_400x275_229.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="date">11 апреля 2019, 10:18</div>
+                                <div class="text">
+                                    Приглашаем в инфотур в Селенгинский район
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="novosti/" class="btn mybtn">
+          Смотреть все
+        </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="line">
+            <div class="left-line">
+            </div>
+            <figure class="ornament-blue">
+                <img src="images/icon/ornament-blue.png" alt="">
+            </figure>
+            <div class="right-line"></div>
+        </div>
+    </div>
+
+    <section class="bur-on-map">
+        <div class="container">
+            <h2>Бурятия на карте</h2>
+            <img class="img-fluid" src="images/content/map.png" alt="Карта Бурятии">
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="line">
+            <div class="left-line">
+            </div>
+            <figure class="ornament-blue">
+                <img src="images/icon/ornament-blue.png" alt="">
+            </figure>
+            <div class="right-line"></div>
+        </div>
+    </div>
+
+    <section class="river">
+        <div class="container">
+            <div class="row">
+                <div class="offset-1 col-7 river-text">
+                    Здесь до 300 дней в году светит солнце, что больше, чем в любом другом регионе России, и сравнимо со Средней Азией
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <a href="/">
+                    <img src="images/logo-nav.png" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-sm-3">
+                    <h5 class="footer-h5">Чем заняться</h5>
+                    <ul class="footer-todonav">
+                        <li class="todonav-item"><a href="#">События</a></li>
+                        <li class="todonav-item"><a href="#">Достопримечательности</a></li>
+                        <li class="todonav-item"><a href="#">Религия</a></li>
+                        <li class="todonav-item"><a href="#">Отдых и природа</a></li>
+                        <li class="todonav-item"><a href="#">Кафе и рестораны</a></li>
+                        <li class="todonav-item"><a href="#">Культурная жизнь</a></li>
+                        <li class="todonav-item"><a href="#">Развлечения</a></li>
+                        <li class="todonav-item"><a href="#">Шопинг</a></li>
+                        <li class="todonav-item"><a href="#">Активынй отдых</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <ul class="footer-nav">
+                        <li class="footer-item"><a href="#">О Бурятии</a></li>
+                        <li class="footer-item"><a href="#">Где остановиться</a></li>
+                        <li class="footer-item"><a href="#">Направления</a></li>
+                        <li class="footer-item"><a href="#">Маршруты</a></li>
+                        <li class="footer-item"><a href="#">Помощь туристам</a></li>
+                        <li class="footer-item"><a href="#">Для компаний</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 text-md-left">
+                    <ul class="footer-nav">
+                        <li class="footer-item"><a href="#">О проекте</a></li>
+                        <li class="footer-item"><a href="#">Сервисы и услуги</a></li>
+                        <li class="footer-item"><a href="#">Где купить сувениры</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-sm-3 text-center p-0">
+                    <a href="#" class="footer-btn btn mybtn">Связаться с нами</a>
+                    <ul class="footer-social d-flex justify-content-center">
+                        <li class="social-item">
+                            <a href="#" class="social-link"><img src="images/icon/blue/vk.png" alt=""></a>
+                        </li>
+                        <li class="social-item">
+                            <a href="#" class="social-link"><img src="images/icon/blue/instagram.png" alt=""></a>
+                        </li>
+                        <li class="social-item">
+                            <a href="#" class="social-link"><img src="images/icon/blue/facebook.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">© 2019 Туристский информационный центр Бурятии. Все права защищены.</div>
+                    <div class="col-4 text-right">Сделано в <a href="#" class="bwc-logo">Байкал-Веб</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_FOllf3FeAHC_9d8ThyBHuJHgn89d6SQ&callback=initMap"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('.slider-nav').slick({});
+
+            $('.operators-slider').slick({
+                infinite: false,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: false,
+                responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                }, {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }]
+            });
+
+            $('.legend-slider-main').slick({
+                dots: true,
+            });
+
+
+        });
+    </script>
+
+</body>
+
+
+</html>
